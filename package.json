@@ -1,0 +1,24 @@
+{
+  "name": "tw-landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-r-e-n-t/TW-LandingPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B-r-e-n-t/TW-LandingPage/issues"
+  },
+  "homepage": "https://github.com/B-r-e-n-t/TW-LandingPage#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
